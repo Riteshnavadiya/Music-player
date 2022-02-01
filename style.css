@@ -1,0 +1,94 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(to right, #d2d2fd, #ffffff);
+}
+
+.para {
+  width: 285px;
+  height: 400px;
+  text-align: center;
+  border-radius: 25px;
+  background-color: #ffffff;
+  box-shadow: 1px 7px 7px;
+}
+
+.para .heading {
+  margin: 25px 0px 10px;
+  text-shadow: -1px 1px 2px;
+}
+
+.para .name {
+  font-weight: 300;
+  color: rgb(209, 198, 198);
+}
+
+.imgs {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  margin-top: 35px;
+  box-shadow: 0px 3px 10px 2px;
+}
+
+.links {
+  justify-content: space-between;
+  display: flex;
+  width: 196px;
+  margin: auto;
+  margin-top: 90px;
+  cursor: pointer;
+  font-size: 13px;
+  align-items: center;
+}
+
+.mainbuttons {
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.links .fas:hover {
+  color: black;
+}
+
+.mainbuttons:hover {
+  background-color: rgb(240, 238, 238);
+  color: black;
+  box-shadow: 1px 2px 2px;
+}
+
+.anime {
+  animation: rotat 3s linear infinite;
+}
+
+@keyframes rotat {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
